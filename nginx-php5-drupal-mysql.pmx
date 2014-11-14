@@ -1,0 +1,10 @@
+---
+name: nginx-php5-drupal-mysql
+description: Template for building Dockerized Drupal LEMP stack
+keywords: Drupal
+type: Drupal
+documentation: see https://github.com/bnchdrff/dockerfiles/ for now
+images:
+- name: bnchdrff_nginx-php5-drupal_latest
+  source: bnchdrff/nginx-php5-drupal:latest
+  type: Default
